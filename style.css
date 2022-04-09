@@ -1,0 +1,120 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 2%;
+  background-color: #303036;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  height: 780px;
+  min-width: 1400px;
+  min-height: 780px;
+  background-color: #af1b3f;
+  border-radius: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  font-family: "Boogaloo", cursive;
+  font-family: "Open Sans", sans-serif;
+  color: #fffaff;
+  text-decoration: none;
+}
+p {
+  margin-left: 20px;
+}
+.social-bar {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: 6F9CEB;
+  box-sizing: border-box;
+}
+.social-icons {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.social-icon {
+  width: 48px;
+  height: 48px;
+  border: #fffaff solid 3px;
+  border-radius: 50%;
+  background-color: #fffaff;
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  background-image: url(/assets/profile.PNG);
+  background-size: cover;
+  border-radius: 50%;
+  border: solid 10px #303036;
+}
+.photo-display {
+  width: 80%;
+  height: 100%;
+  background-color: aliceblue;
+  border-radius: 0 16px 16px 0;
+  display: flex;
+  background-image: url(/assets/img.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info-boxes {
+  width: 100%;
+  margin-top: 10px;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  font-weight: bold;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.icon {
+  width: 46px;
+  height: 46px;
+  margin-left: 15px;
+}
+.img-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin-left: 20%;
+  margin-top: 15%;
+}
+/**/
+.flex-display {
+  display: flex;
+}
+.font-giant {
+  font-size: 64px;
+}
+.font-big {
+  font-size: 32px;
+}

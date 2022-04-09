@@ -69,7 +69,7 @@ p {
 .profile-pic {
   width: 150px;
   height: 150px;
-  background-image: url(/assets/profile.PNG);
+  background-image: url(assets/profile.PNG);
   background-size: cover;
   border-radius: 50%;
   border: solid 10px #303036;
@@ -80,7 +80,7 @@ p {
   background-color: aliceblue;
   border-radius: 0 16px 16px 0;
   display: flex;
-  background-image: url(/assets/img.PNG);
+  background-image: url(assets/img.PNG);
   background-repeat: no-repeat;
   background-size: cover;
 }
